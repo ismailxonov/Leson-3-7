@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    font-family: "Nunito Sans", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(43, 56, 68);
+    width: 100%;
+    color: white;
+    background-size: cover;
+    padding-left: 81px;
+    padding-right: 80px;
+    height: 80px;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+.input{
+    margin-left: 80px;
+    padding-left: 74px;
+    padding-top: 18px;
+    width: 480px;
+    height: 56px;
+    background-color: rgb(43, 56, 68);
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    margin-top: 48px;
+}
+
+.cards{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 74px;
+    margin-top: 36px;
+    font-family: "Nunito Sans", sans-serif;
+}
+.card{
+    background-color: rgb(43, 56, 68);
+    width: 300px;
+    height: 336px;
+    border-radius: 5px;
+    color: white;
+
+}
+body{
+    background-color: rgb(32, 44, 54);
+}
+.card .flag {
+    margin-right: 50px;
+
+}
+.cardstwo{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 74px;
+    margin-top: 36px;
+    font-family: "Nunito Sans", sans-serif;
+}
+.gitler{
+    padding-left: 24px;
+    padding-top: 24px;
+}
+.popular{
+    padding-left: 24px;
+    padding-top: 16px;
+}
+.region{
+    padding-left: 24px;
+    padding-top: 8px;
+}
+.capital{
+    padding-left: 24px;
+    padding-top: 8px;
+}
+@media screen and (min-width:100px) and (max-width:450px){
+    .wrapper{
+        font-family: "Nunito Sans", sans-serif;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(43, 56, 68);
+        width: 600px;
+        color: white;
+        padding-left: 81px;
+        padding-right: 80px;
+        height: 80px;
+    }
+    .nav a {
+        text-decoration: none;
+        color: white;
+    }
+    .input{
+        margin-left: 80px;
+        padding-left: 74px;
+        padding-top: 18px;
+        width: 480px;
+        height: 56px;
+        background-color: rgb(43, 56, 68);
+        border-radius: 5px;
+        color: white;
+        border: 0;
+        margin-top: 48px;
+    }
+    
+    .cards{
+        display: flex;
+        margin-left: 80px;
+        margin-right: 80px;
+        justify-content: space-between;
+        align-items: center;
+        gap: 74px;
+        margin-top: 36px;
+        font-family: "Nunito Sans", sans-serif;
+        flex-wrap: wrap;
+    }
+    .card{
+        background-color: rgb(43, 56, 68);
+        width: 300px;
+        height: 336px;
+        border-radius: 5px;
+        color: white;
+    
+    }
+    body{
+        background-color: rgb(32, 44, 54);
+    }
+    .card .flag {
+        margin-right: 50px;
+    
+    }
+    .cardstwo{
+        display: flex;
+        margin-left: 80px;
+        margin-right: 80px;
+        justify-content: space-between;
+        align-items: center;
+        gap: 74px;
+        margin-top: 36px;
+        font-family: "Nunito Sans", sans-serif;
+        flex-wrap: wrap;
+    }
+    .gitler{
+        padding-left: 24px;
+        padding-top: 24px;
+    }
+    .popular{
+        padding-left: 24px;
+        padding-top: 16px;
+    }
+    .region{
+        padding-left: 24px;
+        padding-top: 8px;
+    }
+    .capital{
+        padding-left: 24px;
+        padding-top: 8px;
+    }
+}
+
+
