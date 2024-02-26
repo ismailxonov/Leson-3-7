@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(43, 56, 68);
+    width: 100%;
+    color: white;
+    background-size: cover;
+    padding-left: 81px;
+    padding-right: 80px;
+    height: 80px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.but{
+    display: flex;
+    align-items: center;
+    padding-left: 32px;
+    gap: 2px;
+    width: 136px;
+height: 40px;
+border-radius: 6px;
+background-color: rgb(43, 56, 68);
+margin-left: 100px;
+color: white;
+margin-top: 80px;
+margin-right: 1224px;
+border: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 65px;
+    margin-top: 90px;
+}
+.img{
+    width: 560px;
+    height: 401px;
+}
+.belgiumsd{
+    margin-top: 30px;
+}
+.belgiumsd p{
+    padding-top: 5px;
+}
+.belgiumds{
+    display: flex;
+    gap: 108px;
+}
+.belgiumsdtwo{
+    padding-top: 30px;
+}
+
+.display{
+    display: flex;
+    margin-top: 70px;
+    gap: 10px;
+}
+.display button{
+    width: 96px;
+height: 28px;
+border-radius: 2px;
+background: rgb(43, 56, 68);
+color: white;
+border: 0;
+}
+body{
+    background-color: rgb(25, 36, 47);
+}

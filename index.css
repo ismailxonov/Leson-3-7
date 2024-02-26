@@ -73,6 +73,13 @@ body{
 .gitler{
     padding-left: 24px;
     padding-top: 24px;
+    text-decoration: none;
+    color: white;
+
+}
+.gitler a {
+    text-decoration: none;
+    color: white;
 }
 .popular{
     padding-left: 24px;
@@ -158,6 +165,8 @@ body{
     .gitler{
         padding-left: 24px;
         padding-top: 24px;
+        text-decoration: none;
+        color: white;
     }
     .popular{
         padding-left: 24px;
@@ -171,6 +180,7 @@ body{
         padding-left: 24px;
         padding-top: 8px;
     }
+    
 }
 
 
